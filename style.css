@@ -1,5 +1,6 @@
 body {
     background-color: black;
+    
 
 }
 
@@ -7,19 +8,23 @@ body {
     border: 2px solid black;
     border-radius: 10px;
     background-color: rgba(36, 35, 35, 0.884);
-
+    
+    
 
 }
 
 img {
     width: 100%;
     height: 260px;
+    object-fit: cover;
 }
 
 #informacoes {
     padding-left: 60px;
     margin-top: 10vh;
     color: white;
+ 
+    
 }
 
 #pclaro {
@@ -29,17 +34,22 @@ img {
 #link {
     display: flex;
     flex-direction: column;
-    display: flex;
-    justify-content: right;
+    
+    
+    
+    
+
+    
 
 }
 
 input {
     border: 1px solid rgb(34, 99, 197);
     border-radius: 10px;
-    padding: 5px;
+    padding: 8px;
     background-color: rgba(36, 35, 35, 0.884);
     color: rgba(43, 148, 218, 0.904);
+    
     
 
 }
@@ -49,4 +59,12 @@ a {
     color: rgba(43, 148, 218, 0.904);
 
 
+}
+
+.imagem-perfil{
+  width: 200px;         
+  height: 200px;        
+  border-radius: 50%;   
+  object-fit: cover;    
+  
 }
