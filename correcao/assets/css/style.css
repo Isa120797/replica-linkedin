@@ -96,3 +96,69 @@ p{
     position: relative;
     margin-top: -80px;
 }
+
+header{
+    margin-top: 30px;
+    padding: 0px 20px;
+}
+
+header nav ul {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+
+    header nav {
+    /* define que há exibição dos elementos */
+    /* por padão ficarão em linha, um na frente do outro */
+    display: flex;
+    /*alinha os elementos na horizontal  */
+    justify-content: space-between;
+    /* alinha os elementos na vertical */
+    /* align-items: center; */
+    /* height: 15vh; */
+    /* padding: 0px 5px;
+    max-width: 1200px; */
+    /* margin: 0 auto; */
+}
+ #pesquisar input{
+ border-radius: 3px;
+ border:1px rgb(37, 37, 37);
+ background-color:rgba(255, 255, 255, 0.253);
+ padding: 5px;
+ 
+
+  
+  
+}
+
+input::placeholder{
+    color: rgba(255, 255, 255, 0.473);
+    
+}
+
+ 
+ li{
+    display: flex;
+  flex-direction: column; /* Alinha o ícone sobre o texto */
+  align-items: center;
+ }
+
+ .navbar{
+
+    align-items: center;
+ }
+ #icon{
+    
+  display: flex;
+  justify-content: space-between; /* Empurra os dois grupos para as pontas */
+  align-items: center;
+  gap: 2px;
+  /* padding: 10px 5%; */
+  /* color: white; */
+
+ }
+ #log{
+    font-size: 2rem; /* Aumente este valor (ex: 2rem, 30px, etc) */
+  margin-bottom: 5px;
+ }
