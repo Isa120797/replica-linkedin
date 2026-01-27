@@ -10,7 +10,7 @@ body{
 
 #img-capa{
     background: url(../Img/Capa.webp);
-    height:20vh ;
+    height:30vh ;
 }
 .destaque-texto{ 
     font-weight: bold;
@@ -24,6 +24,7 @@ a{
     color: rgba(160, 0, 252, 0.692);
     text-decoration: none;
 }
+
 
 button {
     border-radius: var(--arredondamento);
@@ -43,4 +44,55 @@ button {
 
 p{ 
     margin-top: -8px;
+}
+
+.botao-primario:hover {
+    background-color: black;
+    color: blue;
+    cursor: pointer;
+
+
+}
+.botao-secundario:hover{
+    background-color:  rgba(24, 99, 212, 0.63);
+    color:black;
+    cursor: pointer;
+}
+
+
+#informacoes-pessoais{
+    width: 60vw;
+}
+#empresas{
+    width: 40vw;
+    padding: 100px;
+
+}
+.logo{
+    height: 40px;
+    width: 40px;
+}
+.item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    gap: 8px;
+}
+#secao-superior{
+    display: flex;
+    padding: 20px;
+   
+}
+#avatar img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid black;
+
+
+}
+#avatar {
+    position: relative;
+    margin-top: -80px;
 }
