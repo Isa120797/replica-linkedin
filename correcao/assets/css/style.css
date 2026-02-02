@@ -3,7 +3,7 @@
 }
 body{
     margin: 0;
-    background-color: rgb(46, 44, 44);
+    background-color:black;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -11,6 +11,7 @@ body{
 #img-capa{
     background: url(../Img/Capa.webp);
     height:30vh ;
+   
 }
 .destaque-texto{ 
     font-weight: bold;
@@ -97,68 +98,61 @@ p{
     margin-top: -80px;
 }
 
-header{
-    margin-top: 30px;
-    padding: 0px 20px;
+.logo-linkedin{
+    font-size: 30px;
 }
-
-header nav ul {
+#menu-esquerdo{
+    width: 30vw;
     display: flex;
-    gap: 15px;
-    list-style: none;
+    align-items: center;
+    gap: 5px;
 }
-
-    header nav {
-    /* define que há exibição dos elementos */
-    /* por padão ficarão em linha, um na frente do outro */
+#menu-direito{
+    width: 70vw;
     display: flex;
-    /*alinha os elementos na horizontal  */
-    justify-content: space-between;
-    /* alinha os elementos na vertical */
-    /* align-items: center; */
-    /* height: 15vh; */
-    /* padding: 0px 5px;
-    max-width: 1200px; */
-    /* margin: 0 auto; */
+    justify-content: end;
+    gap: 20px;
+    align-items: center;
+   
 }
- #pesquisar input{
- border-radius: 3px;
- border:1px rgb(37, 37, 37);
- background-color:rgba(255, 255, 255, 0.253);
- padding: 5px;
- 
+nav{
+    display: flex;
+    padding: 10px 20px 10px 20px;
+    background-color:  rgb(46, 44, 44);
+}
 
-  
-  
+input{
+height: 20px;
+background-color: rgba(128, 128, 128, 0.418);
+color: white;
+border-radius: 5px;
+border: 1px solid white;
+padding:3px 10px;
+
 }
 
 input::placeholder{
-    color: rgba(255, 255, 255, 0.473);
-    
+    color: white;
 }
-
- 
- li{
+.item-menu{
     display: flex;
-  flex-direction: column; /* Alinha o ícone sobre o texto */
-  align-items: center;
- }
-
- .navbar{
-
+    flex-direction: column;
     align-items: center;
- }
- #icon{
+    text-decoration: none;
+    color: white;
+}
+#menu-direito div:last-child{
+    border-left: 1px solid white;
+    padding-left: 5px;
+}
+#container{
+    background-color: rgb(46, 44, 44) ;
+    border-radius: 20px;
+    border: 1px solid  rgb(46, 44, 44);
+    margin:50px 500px 30px 80px;
+   
+   
     
-  display: flex;
-  justify-content: space-between; /* Empurra os dois grupos para as pontas */
-  align-items: center;
-  gap: 2px;
-  /* padding: 10px 5%; */
-  /* color: white; */
+    
 
- }
- #log{
-    font-size: 2rem; /* Aumente este valor (ex: 2rem, 30px, etc) */
-  margin-bottom: 5px;
- }
+}
